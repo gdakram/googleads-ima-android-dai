@@ -39,8 +39,8 @@ public class VideoListFragment extends Fragment {
   public VideoListItem[] getVideoListItems() {
     return new VideoListItem[] {
       new VideoListItem(
-          "Live HLS Video - Big Buck Bunny",
-          "sN_IYUG8STe1ZzhIIE_ksA",
+          "WSL Test Live HLS Video - Big Buck Bunny",
+          "-WH3096fTE6aO3T6z5-HQw",
           null,
           null,
           null,

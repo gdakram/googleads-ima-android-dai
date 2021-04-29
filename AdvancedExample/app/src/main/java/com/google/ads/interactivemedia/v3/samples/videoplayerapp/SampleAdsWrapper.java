@@ -336,7 +336,9 @@ public class SampleAdsWrapper
     streamManager = event.getStreamManager();
     streamManager.addAdErrorListener(this);
     streamManager.addAdEventListener(this);
-    streamManager.init();
+
+    // This is intentionally commented out for demonstration purpose
+    // streamManager.init();
   }
 
   /** Sets fallback URL in case ads stream fails. */
